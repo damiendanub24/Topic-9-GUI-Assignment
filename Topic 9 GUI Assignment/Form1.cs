@@ -16,5 +16,15 @@ namespace Topic_9_GUI_Assignment
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            imgCharacter.Visible = true;
+        }
+
+        private void btnSubmit1_Click(object sender, EventArgs e)
+        {
+            imgCharacter1.Visible = true;
+        }
     }
 }
